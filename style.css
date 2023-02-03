@@ -43,6 +43,22 @@ body {
     top:50%;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
+    transition: all ease-out 0.05s;
+    z-index: 5;
 }
+
+.second-hand {
+    background: #f46;
+    height: 2px;
+}
+
+.hour-hand {
+    width: 35%;
+    transform-origin: 120% 1500%;
+    transform: rotate(90deg);
+    
+}
+
+
+
 
